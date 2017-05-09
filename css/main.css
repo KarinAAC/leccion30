@@ -1,3 +1,139 @@
 /*
  * Estilos de tu proyecto
  */
+nav{
+   width: 100%;
+   height: 100px;
+   background: #2C3E50;
+   padding:  25px 25px 25px 25px;
+ }
+ /*.div-navegador-principal{
+   display: inline-block;
+   margin-top: 8px;
+ }
+ .div-navegador-principal a{
+   font-size: 30px;
+   font-family: Arial;
+   color: white;
+   text-decoration: none;
+   text-decoration: none;
+   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: 700;
+ }*/
+ *{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ .container{
+   width: 100%;
+   max-width: 1200px;
+   margin: 0px auto;
+ }
+ .row::before, .row::after{
+   content: " ";
+   display: table;
+ }
+ .row::after{
+   clear: both;
+ }
+ [class*="col-"]{
+   min-height: 7px;
+   padding: 12px;
+   float: left;
+ }
+ .col-1{
+   width: 8.333333%;
+   height: 50px;
+   /*border: 1px solid white;*/
+ }
+ .col-2{
+   width: 16.666667%;
+ }
+ .col-3{
+   width: 25%;
+
+ }
+ .col-4{
+   width: 33.333333%;
+   height: 50px;
+   /*border: 1px solid white;*/
+ }
+ .col-5{
+   width: 41.666667%;
+ }
+ .col-6{
+   width: 50%;
+ }
+ .col-7{
+   width: 58.3333333%;
+ }
+ .col-8{
+   width: 66.6666667%;
+ }
+ .col-9{
+   width: 75%;
+ }
+ .col-10{
+   width: 83.33%;
+ }
+ .col-11{
+   width: 91.6666667%;
+ }
+ .col-12{
+   width: 100%;
+ }
+#portfolio{
+  margin-left: 500px;
+}
+#portfolio a{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: -6px;
+  margin-top: 4px;
+  position: absolute;
+}
+#portfolio a:hover{
+  color: #18BC9C;
+}
+#about a{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 12px;
+  margin-top: 4px;
+  position: absolute;
+}
+#about a:hover{
+  color: #18BC9C;
+}
+#contact a{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 4px;
+  position: absolute;
+}
+#contact a:hover{
+  color: #18BC9C;
+}
+/* CREANDO SECCION UNO */
+#section-uno{
+  background: #18BC9C;
+  height: 590px;
+}
+#navegador-principal a{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 27px;
+  margin-left: 63px;
+}
