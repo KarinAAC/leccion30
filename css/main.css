@@ -169,9 +169,9 @@ nav{
 /* CREANDO SECCION DOS */
 #section-dos{
   background: white;
-  height: 620px;
+  height: 850px;
 }
-#section-dos .container .col-4, #section-dos .container .col-1{
+#section-dos .container .col-4, #section-dos .container .col-2{
   height: 300px;
 }
 #section-dos img{
@@ -200,3 +200,58 @@ nav{
   margin-left: 70px;
   margin-top: 37px;
 }
+/* CREANDO SECCION TRES */
+#section-tres{
+  background: #18BC9C;
+  height: 530px;
+}
+#section-tres #titulo-portfolio{
+  height: 150px;
+  margin-left: 395px;
+  margin-top: 50px;
+}
+#section-tres .guion{
+  width: 137px;
+  height: 5px;
+  background: #fff;
+  display: inline-block;
+  margin-left: 35px;
+}
+#section-tres .letra{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 42px;
+  margin-left: 108px;
+}
+#section-tres #parrafo-uno{
+  height: 170px;
+  margin-left: 195px;
+}
+#section-tres #parrafo-uno p{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+#section-tres #parrafo-dos{
+  height: 170px;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+#section-tres #parrafo-dos p{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+#section-tres #download{
+  margin-left: 499px;
+  margin-top: 10px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 9px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 45px;
+}
+/* CREANDO SECCION CONTACTANOS */
