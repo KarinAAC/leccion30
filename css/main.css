@@ -6,6 +6,7 @@ nav{
    height: 100px;
    background: #2C3E50;
    padding:  25px 25px 25px 25px;
+
  }
  /*.div-navegador-principal{
    display: inline-block;
@@ -127,7 +128,7 @@ nav{
 /* CREANDO SECCION UNO */
 #section-uno{
   background: #18BC9C;
-  height: 590px;
+  height: 620px;
 }
 #navegador-principal a{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -136,4 +137,66 @@ nav{
   text-decoration: none;
   font-size: 27px;
   margin-left: 63px;
+}
+.contenedor-secion-uno{
+  text-align: center;
+}
+.contenedor-secion-uno img{
+      margin-top: 100px;
+}
+.contenedor-secion-uno .titulo{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 73px;
+}
+.contenedor-secion-uno .parrafo{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+.contenedor-secion-uno .guion{
+  width: 137px;
+  height: 5px;
+  background: white;
+  display: inline-block;
+  margin-left: 36px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+/* CREANDO SECCION DOS */
+#section-dos{
+  background: white;
+  height: 620px;
+}
+#section-dos .container .col-4, #section-dos .container .col-1{
+  height: 300px;
+}
+#section-dos img{
+  width: 370px;
+  height: 270px;
+}
+#section-dos #titulo-portfolio{
+  height: 150px;
+  margin-left: 395px
+}
+#section-dos .guion{
+  width: 137px;
+  height: 5px;
+  background: #2C3E50;
+  display: inline-block;
+  margin-left: 36px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+.letra{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 42px;
+  margin-left: 70px;
+  margin-top: 37px;
 }
